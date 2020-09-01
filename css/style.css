@@ -1,0 +1,205 @@
+body {
+  background-color: black;
+}
+
+.bg-img {
+  background-image: url("../resources/images/virtualtravel4.jpg");
+  min-height: 420px;
+  /* Center and scale image */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Position bar */
+  position: relative;
+
+}
+/* Nav bar additions */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  font-family: "Bad Script", sans-serif;
+}
+
+/* Centered text ontop of the picture */
+.oyster {
+  position: absolute;
+  top: 45%;
+  left: 49%;
+  transform: translate(-50%, -49%);
+  color: maroon;
+  font-family: "Allan", sans-serif;
+  letter-spacing: 3px;
+  font-size: 35px;
+  text-shadow: 2px 2px 8px #FF0000;
+
+}
+
+nav {
+  overflow: hidden;
+  margin: 0;
+  padding: 10px 0;
+  opacity: 0.90;
+}
+
+nav li {
+  background-color: black;
+  font: white;
+  font-family: 'Allan', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: block;
+  letter-spacing: 1.5px;
+  width: 80px;
+  border-right: 5px solid #b30000;
+  padding: 5px 20px;
+  column
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 80px;
+  min-height: 100%;
+}
+main:after {
+  content: "";
+  display: block;
+  height: 100px;
+}
+
+h1 {
+  color: #737373;
+  font-family: 'IM Fell Double Pica SC', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.travel {
+    text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 28px;
+  margin-top: 0px;
+  padding-top: 15px;
+  position: relative;
+}
+h2#main {
+  margin-left: 80px;
+}
+
+p {
+  color: white;
+}
+
+.mainintro {
+  color: white;
+  position: relative;
+  top: 130px;
+  font-size: 20px;
+  margin-left: 205px;
+  font-family: "Buda", sans-serif;
+}
+
+.pageintro {
+  border: 3px solid wheat;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 18px;
+  background-color: #333333;
+  column-count: 2;
+  column-rule: solid;
+}
+
+.locintro {
+  font-family: "Bad Script", sans-serif;
+}
+
+#pictures {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.overlay {
+  {
+  height: 800px;
+  background-image: url("https://media.nomadicmatt.com/2020/virtualtravel4.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Take out if I don't end up using a button
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+End of button */
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0px;
+  text-align: center;
+  font: white;
+  margin: 0 auto;
+  border-top: 2px solid #b30000;
+  z-index: 100;
+  font-family: "Allan", sans-serif;
+}
+
+#underfooter {
+  position: fixed;
+  bottom: -44px;
+  width: 100%;
+  height: 40px;
+  z-index: 90;
+}
+/* Having some issue with styling the footer?  :Look into it more */
